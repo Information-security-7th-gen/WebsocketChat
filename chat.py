@@ -1,5 +1,5 @@
 import logging, websocket, sys
-from websocket_server import WebsocketServer
+from websocket_server import WebsocketServer, API as Server
 from typing import TypedDict
 
 class Client(TypedDict):
@@ -7,13 +7,13 @@ class Client(TypedDict):
     handler: object
     address: tuple[str, int]
 
-def on_message(client:Client, server, message:str):
+def on_message(client:Client, server:Server, message:str):
     pass
 
-def on_connect(client:Client, server):
+def on_connect(client:Client, server:Server):
     pass
 
-def on_disconnect(client:Client, server):
+def on_disconnect(client:Client, server:Server):
     pass
     
 server = WebsocketServer(host='0.0.0.0', port=8765, loglevel=logging.INFO)
