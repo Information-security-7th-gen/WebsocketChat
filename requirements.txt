@@ -1,0 +1,6 @@
+websocket-client==1.6.3 ; python_version >= "3.8" and python_version < "4.0" \
+    --hash=sha256:3aad25d31284266bcfcfd1fd8a743f63282305a364b8d0948a43bd606acc652f \
+    --hash=sha256:6cfc30d051ebabb73a5fa246efdcc14c8fbebbd0330f8984ac3bb6d9edd2ad03
+websocket-server==0.6.4 ; python_version >= "3.8" and python_version < "4.0" \
+    --hash=sha256:a8a02d575905e50f6af90bbbc37d23d7e1b027630897f0eeefed6a3fb3c22e07 \
+    --hash=sha256:aca2d8f7569c82fe3e949cbae1f9d3f3035ae15f1d4048085431c94b7dfd35be
